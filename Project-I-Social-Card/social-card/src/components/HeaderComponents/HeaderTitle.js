@@ -3,8 +3,8 @@ import './Header.css';
 
 const HeaderTitle = () => {
     return (
-        <div>
-            <h2>Lambda School</h2>
+        <div className="header-title">
+            <h4>Lambda School</h4>
             <p>@LambaSchool - 26 jan</p>
         </div>
     );
