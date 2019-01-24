@@ -1,0 +1,28 @@
+.calculator-container {
+}
+
+.button-row {
+    display: flex;
+}
+
+.button-class {
+    flex: 1 1 auto;
+    font-size: 50px;
+    height: 125px;
+    background: white;
+}
+
+.zero-button {
+    flex: 3 1 auto;
+    font-size: 50px;
+    height: 125px;
+    background: white;
+}
+
+.action-button {
+    flex: 1 1 auto;
+    font-size: 50px;
+    height: 125px;
+    background: darkred;
+    color: white;
+}
