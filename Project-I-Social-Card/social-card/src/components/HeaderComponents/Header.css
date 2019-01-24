@@ -11,16 +11,22 @@
 }
 
 .header-title h4 {
-    margin: 8px;
+    margin: 8px 0px 0px 2px;
 }
 
 .header-title p {
-    margin: 8px;
+    margin: 9px 0px 0px 8px;
     vertical-align: 0;
+    font-size: 0.8em;
+    color: gray;
 }
 
 .header-content {
     border: 2px solid turquoise;
+}
+
+.header-content p {
+    margin: 8px 0px 8px 2px;
 }
 
 .header-container img {
