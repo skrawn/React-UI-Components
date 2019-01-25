@@ -10,13 +10,14 @@ const App = () => {
     <div className="calculator-container">
       <CalculatorDisplay />
       <div className="button-row">
-        <ActionButton text={'clear'} buttonStyle="zero-button" />
+        <ActionButton text={'clear'} buttonStyle="clear-button" />
+        <ActionButton text={'÷'} buttonStyle="action-button" />
       </div>
       <div className="button-row">
         <NumberButton text={7} buttonStyle="button-class" />
         <NumberButton text={8} buttonStyle="button-class" />
         <NumberButton text={9} buttonStyle="button-class" />
-        <ActionButton text={'X'} buttonStyle="action-button" />
+        <ActionButton text={'×'} buttonStyle="action-button" />
       </div>
       <div className="button-row">
         <NumberButton text={4} buttonStyle="button-class" />
